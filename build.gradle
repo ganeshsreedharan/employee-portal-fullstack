@@ -1,0 +1,26 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.5.RELEASE'
+	id 'java'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.sg.excercise'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+processResources.dependsOn('frontend:build')
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'io.springfox:springfox-swagger2:2.9.2'
+	implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+	runtimeOnly 'com.h2database:h2'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}

@@ -1,0 +1,6 @@
+.disabled-button{
+    cursor: not-allowed;
+}
+:host{
+    width: 100%
+}

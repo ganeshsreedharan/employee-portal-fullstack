@@ -1,0 +1,6 @@
+@media screen and (max-width: 675px) {
+   
+    .container-fluid{
+        padding-left: 15%;
+    }
+}

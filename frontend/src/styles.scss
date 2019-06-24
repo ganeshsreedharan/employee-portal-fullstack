@@ -1,0 +1,19 @@
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import "~ngx-bootstrap/datepicker/bs-datepicker.css";
+@import '~ngx-toastr/toastr';
+
+ 
+// bootstrap style toast 
+// or import a bootstrap 4 alert styled design (SASS ONLY) 
+// should be after your bootstrap imports, it uses bs4 variables, mixins, functions 
+
+
+body {
+  font-size: .9rem;
+  background-color: #f5f5f5;
+}
+
