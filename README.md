@@ -1,6 +1,8 @@
 # employee-portal-fullstack
 This project aims at setting up an employee portal with Spring Boot and Angular 7 UI.
 
+demo https://employee-portal.cfapps.io/
+
 ## Technologies used
 - Front End: Angular 7, Bootstrap, Typescript,protractor for e2e , Jasmine, Karma
 - Back End: Java, Spring Boot, Rest API, Swagger, Junit, Mockito
