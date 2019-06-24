@@ -47,9 +47,9 @@ ng test
 ```
 ### End to end testing for front end module with protractor .
 ```
-
-## Swagger UI
-
+ng test
+```
+### Swagger UI
 ```
 Once the server is up and running you an see the swagger ui on http://localhost:8080/swagger-ui.html#/
 ```
